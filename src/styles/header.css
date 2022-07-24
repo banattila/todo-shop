@@ -1,0 +1,44 @@
+header {
+    background-color: var(--second-bg);
+    z-index: 100;
+}
+
+.header-title {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: var(--second-color);
+}
+
+.logo {
+    max-width: 50px;
+    max-height: 50px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border-radius: 2px;
+    border-top: 1px solid var(--second-color);
+
+}
+
+.links {
+    text-align: center;
+    color: var(--second-color);
+    text-decoration: none;
+    padding: 2vw;
+    transition: 1s;
+    flex: 1;
+}
+
+.links:hover {
+    color: var(--second-bg);
+    background-color: var(--second-color);
+    text-decoration: underline;
+}

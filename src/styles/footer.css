@@ -1,0 +1,14 @@
+footer {
+    width: 100%;
+    padding: 1vw;
+    position: fixed;
+    bottom: 0;
+    background-color: var(--second-bg);
+    color: var(--second-color);
+    text-align: center;
+    z-index: 100;
+  }
+  
+  #name {
+    font-style: italic;
+  }
