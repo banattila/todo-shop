@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import { dateData, shoppingData, todoData } from "../datas/datas";
 import Page from "../pages/Page";
 import '../styles/pageContent.css';
+import Login from "../pages/Login";
 
 const PageContent = () => {
 
@@ -14,13 +15,16 @@ const PageContent = () => {
     return (
         <Routes>
             <Route path="/shopping-list" 
-                element={<Page title="Bevásárlások" componentName="shopping" items={shopping}/>}>
+                element={<Page title="Bevásárlások listája és hozzáadása" componentName="shopping" items={shopping}/>}>
             </Route>
             <Route path="/todo-list"
-                element={<Page title="Tevékenységek" componentName="todo" items={todoing}/>}>
+                element={<Page title="Tevékenységek listája és hozzáadása" componentName="todo" items={todoing}/>}>
                 </Route>
             <Route path="/date"
-                element={<Page title="Időpontok" componentName="date" items={dateing}/>}>
+                element={<Page title="Időpontok listája és hozzáadása" componentName="date" items={dateing}/>}>
+                </Route>
+            <Route path="/login"
+                element={<Login />}>
                 </Route>
         </Routes>
     );

@@ -7,7 +7,8 @@ const DateItem = (props) => {
             <h3 className="item-name">{props.item.title}</h3>
             <p className="added">Hozzáadva:</p>
             <p>{props.item.added}</p>
-            <p>Mikor: {props.item.date}</p>
+            <p>Mikor:</p>
+            <p>{props.item.date}</p>
             <label className="finished">Megvan<input type="checkbox" name="finished"/></label>
         </article>
 

@@ -1,6 +1,6 @@
 footer {
     width: 100%;
-    padding: 1vw;
+    padding: 1vw 0;
     position: fixed;
     bottom: 0;
     background-color: var(--second-bg);

@@ -98,3 +98,14 @@ export const dateData = [
         important: false,
     },
 ];
+
+export const users = [
+    {
+        name: "Attila",
+        password: "kukorica",
+    },
+    {
+        name: "Hajnalka",
+        password: "krumpli",
+    },
+];

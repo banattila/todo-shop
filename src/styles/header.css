@@ -2,9 +2,9 @@ header {
     background-color: var(--second-bg);
     z-index: 100;
     position: fixed;
-    padding: 10px;
+    top: 0;
     width: 100%;
-    height: 150px;
+    height: 140px;
 }
 
 .header-title {
