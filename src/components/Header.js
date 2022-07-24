@@ -12,7 +12,7 @@ const Header = () => {
         <header>
             <div className="header-title">
             <img className="logo" src={logo} alt="logo"/>
-                <h4>Listák</h4>
+                <h4 className="main-title">Listák</h4>
             </div>
             <nav>
                 {links.map((item, index) => {

@@ -1,5 +1,12 @@
 :root {
   --second-bg: #444;
   --second-color: #ccc;
+  --content-bg: #eee;
+  --content-color: #222;
 }
 
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}

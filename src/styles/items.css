@@ -1,0 +1,30 @@
+.item-wrapper {
+    border: .5px solid var(--content-color);
+    border-left: 3px solid green;
+    margin: 10px;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+
+
+.important {
+    border-left: 3px solid red;
+}
+
+.quantity {
+    text-decoration: underline;
+    font-weight: 1000;
+    font-style: italic;
+    font-size: large;
+}
+
+.finished {
+    background-color: var(--second-bg);
+    color: var(--second-color);
+    margin-left: 20px;
+}
+
+input[type=checkbox] {
+    content: "";
+    background: green;
+}
